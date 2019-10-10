@@ -15,7 +15,7 @@ modules:
             entryUrl: 'http://craft-latest.local/index.php'
             projectConfig: {}
             migrations: []
-            plugins: []
+            plugins: [{class: "acclaro\\translations\\Translations", handle: "translations"}]
             cleanup: true
             transaction: true
             dbSetup: {clean: true, setupCraft: true}

@@ -27,8 +27,7 @@
         "craftcms/cms": "^3.2.0",
         "guzzlehttp/guzzle": "^6.3",
         "php": ">=7.1.0",
-        "sebastian/diff": "^3.0",
-        "vlucas/phpdotenv": "^3.6"
+        "sebastian/diff": "^3.0"
     },
     "autoload": {
         "psr-4": {
@@ -47,6 +46,7 @@
         "class": "acclaro\\translations\\Translations"
     },
     "require-dev": {
-        "codeception/codeception": "^3.1"
+        "codeception/codeception": "^3.1",
+        "vlucas/phpdotenv": "^3.6"
     }
 }
