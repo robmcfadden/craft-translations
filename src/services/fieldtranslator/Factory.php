@@ -57,7 +57,7 @@ class Factory
         SuperTableField::class  => SuperTableFieldTranslator::class,
         Table::class            => TableFieldTranslator::class,
         Tags::class             => TagFieldTranslator::class,
-        CodeMirrorField::class       => GenericFieldTranslator::class,
+        CodeMirrorField::class  => GenericFieldTranslator::class,
     );
 
     public function makeTranslator(Field $field)
