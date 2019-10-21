@@ -2,13 +2,13 @@
 
 return [
     'localTranslator' => [
-        'label' => 'Local',
+        'label' => 'Test Fixture',
         'service' => 'export_import',
         'status' => 'active'
     ]
     // [
-    //     'label' => 'Local',
-    //     'service' => 'export_import',
+    //     'label' => 'Acclaro',
+    //     'service' => 'acclaro',
     //     'status' => 'active',
     //     'settings' => [
     //         'apiToken' => '123456',

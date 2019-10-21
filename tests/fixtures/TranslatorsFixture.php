@@ -1,9 +1,12 @@
 <?php
 namespace translationstests\fixtures;
+
+use craft\test\fixtures\elements\ElementFixture;
+
 /**
  * Class TranslatorsFixture
  */
-class TranslatorsFixture
+class TranslatorsFixture extends ElementFixture;
 {
     // Properties
     // =========================================================================
